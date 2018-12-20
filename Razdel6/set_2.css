@@ -1,0 +1,42 @@
+.button_style {
+	width: 36px;
+	height: 38px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+.button_style:before {
+	left: 28%;
+}
+.button_style:active {
+	color: #000000;
+	top: 2px;
+	transition: all 1s;
+}
+.button_style > span {
+	display: inline-block;
+}
+.backward:before {
+	content: "←";
+	position: absolute;
+}
+
+
+.btn-1_style:before {
+	left: -78%;
+	transition: all 0.5s;
+}
+.btn-1_style:hover:before {
+	left: 28%;
+	transition: all 1s;
+}
+.btn-1_style:hover > span {
+	transform: translateX(300%);
+	transition: all 1s;
+}
+
+.color2{
+background: linear-gradient(to top, #91F488, #00E6BA);
+color:#2e2302;
+}
