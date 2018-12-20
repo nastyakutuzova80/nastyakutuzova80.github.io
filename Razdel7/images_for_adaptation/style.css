@@ -1,0 +1,58 @@
+body 
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		margin: 0;
+	}
+
+#article_1
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+.article_1
+	{
+		display:flex;
+		flex-direction:column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+.b_s_texo
+	{
+		font-family: Gilroy;
+		font-style: normal;		
+		font-stretch: normal;
+		text-align: left;
+		color: #141414;
+	}
+
+.text_content
+	{
+		font-family: Gilroy;
+		font-style: normal;
+		font-stretch: normal;
+		text-align: justify;
+		color: #141414;
+	}
+
+.h2_zagolovok
+	{
+		font-family: Gilroy;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		color: #000000;
+	}
+
+
+main {display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;}

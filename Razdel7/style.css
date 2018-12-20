@@ -1,0 +1,427 @@
+body 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;
+}
+
+main 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;
+}
+
+#first_block 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#h2_first_block
+{ 
+	font-family: Gilroy;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	color: #000000;
+}
+	
+.b_first_block_text
+{
+	font-family: Gilroy;
+	font-style: normal;		
+	font-stretch: normal;
+	text-align: left;
+	color: #141414;
+}
+	
+.p_first_block_text
+{
+	font-family: Gilroy;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: justify;
+	color: #141414;
+}
+	
+@media screen and (max-width: 700px){
+	
+	body 
+{
+		min-width: 310px;
+}
+	
+		
+	.first_block 
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+}
+	
+	.first_block div 
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 295px;
+}
+	
+	.images 
+{
+		width: 288px;
+		height: auto;
+}
+	
+	
+	#h2_first_block 
+{
+		  font-size: 30px;
+		  font-weight: 800;
+		  letter-spacing: 1.5px;
+		  text-align: center;
+}
+	
+	.b_first_block_text 
+{
+		font-size: 14px;
+		font-weight: 800;
+		line-height: 2;
+		letter-spacing: 0.7px;
+}
+	
+	.p_first_block_text 
+{
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 1.29;
+		letter-spacing: 0.7px;
+}
+	
+	main 
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		min-width: 310px;
+		text-align: center;
+}
+		
+	img[src='images_for_adaptation/bigben.png']
+{
+		width: 80%;
+		height: auto;
+}
+
+	
+	#second_block 
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		max-width: 100%;
+		padding:0 15px;
+		
+}
+	
+	#second_block article
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+}
+	
+	#second_block h2 
+{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #000000;
+}
+
+	h2#second_block::before 
+{
+		content: '-';
+		font-size: 24px;
+		background-color: #f5112c;
+}
+	
+	#second_block h3 
+{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #f5112c;
+}
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px){
+	
+	body 
+{
+		min-width: 640px;
+}
+	
+	.first_block 
+{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: left;
+		min-width: 800px;
+		margin-left: 30%;
+}
+	
+	.first_block div 
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 344px;
+		margin: 0 10px;
+		
+}
+	
+	.images 
+{
+		width: 344px;
+		height: auto;
+}
+	
+	
+	#h2_first_block 
+{ 
+		font-size: 30px;
+		font-weight: 800;
+		letter-spacing: 1.5px;
+		text-align: left;
+		padding-left: 15px;
+}
+	
+	.b_first_block_text 
+{
+		font-size: 18px;
+		font-weight: 800;
+		line-height: 1.56;
+		letter-spacing: 0.9px;
+}
+	
+	.p_first_block_text
+{
+	  font-size: 14px;
+	  font-weight: 300;
+	  line-height: 1.71;
+	  letter-spacing: 0.7px;
+}
+
+
+
+	main 
+{
+		display: flex;
+		flex-direction: row;
+		min-width: 700px;
+		margin-right: 50px;
+}
+
+	img[src='images_for_adaptation/bigben.png']
+{
+		width: 612px;
+		height: 881px;
+}
+	
+	#second_block h2
+{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #000000;
+}
+	
+	#second_block h3 
+{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #f5112c;
+}
+	
+	
+	#p_maid_block 
+{
+		width: 516px;
+}
+	
+	#second_block
+{
+		display: flex;
+		flex-direction: column;
+}
+
+	#second_block_content_text div 
+{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 269px;
+}
+	
+	
+	#second_block_content_text div 
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+}
+	
+	
+}
+
+@media screen and (min-width: 1023px){
+	
+	body 
+{
+		min-width: 1000px;
+}
+	
+	.first_block
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 0 15px;
+}
+	
+	.first_block div
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 360px;
+		padding: 0 15px;
+		
+}
+	
+	.images
+{
+		width: 360px;
+		height: auto;
+}
+	
+	
+	#h2_first_block
+{
+		  font-size: 45px;
+		  font-weight: 800;
+		  letter-spacing: 2.3px;
+		  text-align: left;
+}
+	
+	.b_first_block_text
+{
+		font-size: 18px;
+		font-weight: 800;
+		line-height: 1.56;
+		letter-spacing: 0.9px;
+}
+	
+	.p_first_block_text
+{
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 1.71;
+		letter-spacing: 0.7px;
+}
+	
+	
+	main
+{
+		display: flex;
+		flex-direction: row;
+		min-width: 1300px;
+		margin-right: 50px;
+}
+
+	img[src="images_for_adaptation/bigben.png"]
+{
+		width: 749px;
+		height: auto;
+		float: left;
+}
+		
+	#second_block h2
+{
+		font-size: 45px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 2.3px;
+		color: #000000;
+}
+	
+	#second_block h3
+{	
+		font-size: 41px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 2.3px;
+		color: #f5112c;
+}
+	
+		
+	#p_maid_block
+{
+		width: 654px;
+}
+	
+	#second_block
+{
+		display: flex;
+		flex-direction: column;
+}
+
+	#second_block_content_text div
+{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 269px;
+		padding: 0 10px;
+}
+	
+	
+	#second_block_content_text div
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+}
+}

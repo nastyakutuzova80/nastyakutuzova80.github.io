@@ -1,0 +1,220 @@
+
+@media screen and (max-width: 680px ){ 
+
+	
+body
+	{
+		min-width: 310px;
+	}
+
+	
+img[src='pic/bigben.png']
+	{
+		width: 55%;
+		height: auto;
+	}
+
+main 
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		min-width: 310px;
+		text-align: center;
+	}
+		
+
+	
+#article_2 
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	
+#article_2 article
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	
+#article_2 h2
+	{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #000000;
+	}
+	
+#article_2 h3 
+	{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #f5112c;
+	}
+
+h2#article_2::before 
+	{
+		content: '-';
+		font-size: 24px;
+		background-color: #f5112c;
+	}
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 1024px) {
+	
+body 
+	{
+		min-width: 640px;
+	}
+	
+
+img[src='pic/bigben.png']
+{
+		width: 612px;
+		height: 881px;
+	}
+	
+#article_2 h2 
+	{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #000000;
+	}
+	
+#article_2 h3 
+	{
+		font-size: 24px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		color: #f5112c;
+	}
+	
+main 
+	{
+		display: flex;
+		flex-direction: row;
+		min-width: 1300px;
+		margin-right: 50px;
+	}
+	
+#p_main
+	{
+		width: 716px;
+	}
+	
+#article_2 
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+#second_block_texo div 
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 269px;
+		
+	}
+	
+	
+#second_block_texo div 
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+}
+	
+
+@media screen and (min-width: 1024px) {
+	
+body 
+	{
+		width:1000px;
+	}
+	
+	
+img[src='pic/bigben.png']
+	{
+		width: 95%;
+		height: auto;
+	}
+	
+	
+#article_2 
+	{
+		display: flex;
+		flex-direction: column;
+	}	
+	
+#article_2 h2 
+	{
+		font-family: Gilroy;
+		font-size: 45px;
+		font-weight: 800;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 2.3px;
+		text-align: left;
+		color: #000000;
+	}
+	
+#article_2 h3 
+	{
+		font-family: Gilroy;
+		font-size: 45px;
+		font-weight: 300;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 2.3px;
+		text-align: left;
+		color: #f5112c;
+	}
+	
+#p_main
+	{
+		width: 654px;
+	}
+	
+#second_block_texo div 
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 269px;
+		padding: 0 10px;
+	}
+	
+	
+#second_block_texo div 
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+}
