@@ -1,0 +1,72 @@
+body {
+      font-family: "Helvetica","Work Sans", sans-serif;; /* Семейство шрифтов */
+      background-color: #bed8ce; /* Цвет фона веб-страницы */
+      color: #FFFFFF; /* Цвет основного текста */
+	  align-items: center;
+	  Width:800px;
+	  Height:596px;
+    }
+form{
+	font-family: Helvetica; 
+	align-items: center;
+	Width:658px;
+	Height:401px;
+	background-color: #ffffff; 
+	
+}
+	
+	fieldset {
+	margin: 92px 71px 120px;
+	border: 0px solid #ffffff;
+  }
+	
+	
+.glavnia{
+  font-size: 24pt;
+  line-height: 80px;
+  width: 100%;
+  height: 81px;
+  background-color: #2c575a;
+  }
+  
+input{
+	  Width:578px;
+	  Height:61px;
+	  align-items: center;
+}
+
+.form_s{
+	
+margin-left: 40px;
+}
+  
+.button {
+  margin-left: 40px;
+  background-color: #5ea69a;
+  border-collapse: collapse;
+  border: 1px solid #5ea69a;
+  color: #FFFFFF;
+  font-size: 18pt;
+  }
+  
+  div.inputuser input {
+background: url("icons/pic1.png");
+background-repeat: no-repeat;
+ background-position: 530px center;
+ background-color:2c575a;
+}
+  
+    div.inputpassword input {
+background: url("icons/pic2.png");
+background-repeat: no-repeat;
+ background-position: 530px center;
+  background-color:2c575a;
+}
+  
+     p.input_user_login {
+background: url("icons/Close.png");
+background-repeat: no-repeat;
+ background-position: 340px center;
+  background-color:2c575a;
+}
+  
