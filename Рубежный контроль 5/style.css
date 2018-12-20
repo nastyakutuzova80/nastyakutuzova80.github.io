@@ -1,0 +1,472 @@
+header {
+	width: 1920px;
+	height: 900px;
+	/*background-color: #41e0d8;*/
+	
+	background-image: url(images/background.png);
+}
+/*
+body{
+	width:  3395px;
+	height: 899px;
+}
+*/
+/*.body_content{
+	width: 1920px;
+	width: 1920px;
+	height: 959px;
+	background-color: #f9f9f9;
+}
+*/
+h1{
+	height: 43px;
+	font-family: OpenSans;
+	
+}
+
+#block-nav-menu {
+ float: right; 
+
+}
+
+p{color:#ffffff;}
+
+#block-nav-menu ul{
+ margin: 0;
+ padding: 0;
+}
+
+#block-nav-menu ul li{
+ float: left;
+ list-style: none;
+}
+#block-nav-menu li:last-child{
+ border-right: none; 
+}
+
+#block-nav-menu ul li{
+ float: left;
+ list-style: none;
+ margin: 0 60px;
+ background-color: none;
+  margin: 50px 0px 0px 0px;
+
+}
+
+#block-nav-menu li:last-child{
+background-color: #262a34;
+color: #fffffff;
+align-items: center;
+ margin: 50px 250px 0px 0px;
+/*262a34*/
+}
+
+.button-nav{
+  width: 240px;
+  height: 46px;
+  align-items: center;
+  text-decoration: none;
+  
+}
+
+#block-nav-menu li a {
+ text-decoration: none;
+ color: #ffffff;
+}
+#block-nav-menu li a:hover {
+ text-decoration: underline;
+}
+
+
+#top-navigation {
+  font-size: 12px;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.75;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.bound-top-navigation {
+ background: none;
+ margin: 61px 250px 35px 480px;
+}
+
+.wrapper {
+	overflow:hidden
+}
+
+#logo {
+  width: 54px;
+  height: 68px;
+  float: left;
+  background-color: none;
+}
+
+#screen {
+  width: 311px;
+  height: 63px;
+  float: left;
+  margin: 0px 153px 0 px 495px;
+  background-color: none;
+}
+
+
+/*2ой блок после хеад*/
+.article_1{
+	
+	margin: 293px 295px 0px 480px;
+}
+
+.Join-more-than-1000 {
+  font-family: OpenSans;
+  font-size: 43px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3c3d41;
+}
+
+.text-style-1 {
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.text_article1{
+	margin: 0px 305px 0px 555px;
+	width: 464px;
+	height: 456px;
+	overflow:hidden
+}
+
+.People-are-definitel{
+	width: 340px;
+  height: 115px;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 20px 0px 0px 0px;
+}
+
+/*2 блок после телефона*/
+
+.What-you-get {
+  width: 183px;
+  height: 43px;
+  font-family: OpenSans;
+  font-size: 43px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  float: left;
+  color: #ffffff;
+}
+
+.article_2{
+  width: 1920px;
+  height: 861px;
+  background-color: #262a34;
+overflow:hidden;
+  color: #ffffff;
+  }
+  
+  .buttoni{
+  width: 138px;
+  height: 46px;
+  text-decoration: none;
+  align-items: center;
+  color:#ffffff;
+  background-color: #41e0d8;
+  
+  
+  /*margin:18px 0px 0px 15px;*/
+  /*  overflow:hidden;*/
+}
+
+.Screen-1 {
+  width: 128px;
+  height: 404px;
+}
+
+.text_osnova{
+	width: 348px;
+	height: 404px;
+	margin: 0px 0px 0px 555px;
+}
+	
+.People-are-definitel_S {
+  width: 340px;
+  height: 115px;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  /*margin: 198px 0px 0px 0px;*/
+}
+
+.People-are-definitel_SS{
+font-family: OpenSans;
+  font-size: 15px;
+  line-height: 2.2;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin: 229px 0px 0px 500px;
+}
+
+.People-are-definitel_SSS{
+font-family: OpenSans;
+  font-size: 15px;
+  line-height: 2.2;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+.forms_bloki{
+	width: 228px;
+	height: 404px;
+	float: right;
+	object-fit: contain;
+	margin: 229px 15px 0px 0px;
+	float: right;
+	background-color: #3f4551;
+}
+
+.forms_bloki_1{
+	width: 228px;
+	height: 404px;
+	float: right;
+	object-fit: contain;
+	margin: 229px 400px 0px 0px;
+	background-color: #3f4551;
+}
+
+/* 3ий блок после ТОГО ВТОРОГО БЛОКА который я смог вставить спустя 3 ЧАСА СЛОЖНОЙ РАБОТЫ ОТ КОТОРОЙ МОЙ МОЗГ ПЛАЧЕТ*/
+
+.article_3{
+  width: 1920px;
+  height: 900px;
+  overflow:hidden;
+  background-color: #67e7e1;
+  }
+
+  
+  .article_3_SIZE{
+	margin: 0px 0px 0px 480px;	
+}
+
+.Some-words-from-our{
+	width: 587px;
+  height: 33px;
+  font-family: OpenSans;
+  font-size: 43px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 228px 295px 0px 750px;
+}
+
+.People-are-definitel {
+  width: 332px;
+  height: 49px;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+   margin: 42px 751px 0px 837px;
+}
+
+#screen_pic {
+  width: 311px;
+  height: 630px;
+  margin: 84px 0px 0px 20px;
+  float: left;
+ /*350px 153px 0 px 495px;*/
+}
+
+.Path {
+	float: left;
+	width: 615px;
+	height: 232px;
+	margin: 206px 0px 0px 0px;
+	background-image: url(images/path.png);
+}
+
+.People-are-definitel_2 {
+  width: 442px;
+  height: 82px;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262a34;
+  margin: 62px 75px 32px 98px;
+}
+
+.John-Doe {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #41e0d8;
+   margin: 0px 0px 0px 98px;
+}
+
+
+/*4ый блок формочка уаааа*/
+
+.article_4{
+  width: 1920px;
+  height: 440px;
+  color:#ffffff;
+  background-color: #262a34;
+  overflow:hidden;
+  }
+  
+  .Join-us {
+  width: 145px;
+  height: 42px;
+  font-family: OpenSans;
+  font-size: 43px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 83px 855px 0px 890px;
+}
+  
+  .We-will-send-you-fro {
+  width: 244px;
+  height: 45px;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 37px 855px 0px 850px;
+}
+
+.join_us_text{
+	margin: 83px 855px 0px 890px;
+}
+
+.form_s{
+	margin-left: 650px;
+	
+}
+
+.button_form {
+  width: 139px;
+  height: 50px;
+  font-family: OpenSans;
+  font-size: 15px;
+  line-height: 2.2;
+  letter-spacing: normal;
+  color: #41e0d8;
+  background-color: #ffffff;
+
+  }
+  
+  #Your_Mail{
+  width: 460px;
+  height: 50px;
+  opacity: 0.2;
+  font-family: OpenSans;
+  font-size: 15px;
+  line-height: 2.2;
+  letter-spacing: normal;
+  color: #ffffff;
+  }
+  
+  .Your_Mail{
+  color: #ffffff;
+  }
+  
+  
+  form{
+	border: 2px solid #262a34;  
+	font-family: OpenSans;
+	  align-items: center;
+	  color: #ffffff;
+	  margin: 88px 0px 0px 0px;
+  }
+  
+  
+  /*ФУТТЕР ФИНАЛ */
+  .footer{
+  width: 1920px;
+  height: 295px;
+  background-color: #f9f9f9;
+  overflow:hidden;
+  }
+  
+#logo_2{
+	width: 54px;
+  height: 68px;
+  object-fit: contain;
+  margin: 80px 932px 0px 934px; 
+}
+  
+ .2016_nord{
+  width: 234px;
+  height: 16px;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262a34;
+ }
+ 
+ .nord_text_ura{
+	margin: 41px 450px 90px 836px;  
+ }
