@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class ="size" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="blue.css" id="Change_Theme"></link>
+		
+    <title> Калькулятор </title>
+	
+	
+    <script src="calculator2.js"></script>
+	
+</head>
+
+<body >
+	
+		<table border="2" width="100% cellspacing = "0" cellpadding = "0%" align=center> 
+		
+    <tr>
+	
+		<td>
+            <button onclick="theme()"> ! </button>
+        </td>
+	
+        <td colspan="50%"> 
+			<textarea id="display" rows="0" disabled>0</textarea>
+		</td>
+		
+    </tr>
+    <tr> <!-- Строка 1ая -->
+	
+        <td>
+			<button id="backspace" onclick="backspace()"> <- </button>
+        </td>
+		
+		<td>
+            <button id="sqrt" onclick="Operation('sqrt');Highl_Light_Id_element('sqrt')">√</button>
+        </td>
+		
+		<td>
+            <button id="exp" onclick="Operation('exp');Highl_Light_Id_element('exp')">^</button>
+        </td>
+		
+        <td colspan="2" >
+            <button style="width: 100%" onclick="reset()"> C</button> 
+        </td>
+		
+		<!--  colspan="2" -->
+    </tr>
+    
+    <tr>
+        <td>
+            <button onclick="Pressed_numeric(7)">7</button>
+        </td>
+		
+        <td>
+            <button onclick="Pressed_numeric(8)">8</button>
+        </td>
+		
+        <td>
+            <button onclick="Pressed_numeric(9)">9</button>
+        </td>
+		
+        <td>
+            <button id="delenie" onclick="Operation('/');Highl_Light_Id_element('delenie')">/</button>
+        </td>
+		
+		<td>
+            <button id="div" onclick="Operation('div');Highl_Light_Id_element('div')">D</button>
+        </td>
+		
+    </tr>
+    <tr>
+        <td>
+            <button onclick="Pressed_numeric(4)">4</button>
+        </td>
+		
+        <td>
+            <button onclick="Pressed_numeric(5)">5</button>
+        </td>
+		
+        <td>
+            <button onclick="Pressed_numeric(6)">6</button>
+        </td>
+		
+        <td>
+            <button id="umnog" onclick="Operation('*');Highl_Light_Id_element('umnog')">*</button>
+        </td>
+		
+		<td>
+            <button id="mod" onclick="Operation('%');Highl_Light_Id_element('mod')">M</button>
+        </td>
+    </tr>
+	
+    <tr>
+        <td>
+            <button onclick="Pressed_numeric(1)">1</button>
+        </td>
+        <td>
+            <button onclick="Pressed_numeric(2)">2</button>
+        </td>
+		
+        <td>
+            <button onclick="Pressed_numeric(3)">3</button>
+        </td>
+		
+        <td>
+            <button id="minus" onclick="Operation('-');Highl_Light_Id_element('minus')">-</button>
+        </td>
+		
+		<td rowspan="10" >
+			<button id="plus"  style=" height: 100%"  onclick="Operation('+'); Highl_Light_Id_element('plus') ">+</button>
+		</td>
+		
+    </tr>
+	
+    <tr>
+        <td colspan="2">
+            <button style="width: 100%" onclick="Pressed_numeric(0)">0</button>
+        </td>
+		
+        <td>
+            <button id="tochka" onclick="tochka('.');Highl_Light_Id_element('tochka')">.</button>
+        </td>
+		
+        <td >
+            <button onclick="calculate()">=</button>
+        </td>
+		
+		
+    </tr>
+	
+</table>
+ 
+</body>
+</html>
