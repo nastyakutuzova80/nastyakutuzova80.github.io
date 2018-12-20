@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Verdana, sans-serif;  
+  font-size: 11pt; 							
+  background-color: #ffffff;     			/* Цвет фона веб-страницы */			 /*Желтый*/
+  color: #184881; 							/* Цвет основного текста */ 			 /*Оранджевый*/
+  width: 900px;
+  height: 400px;
+  align-items: center;
+  
+   }
+   
+h1{						
+  font-size: 28pt; 	
+  сolor: #f04ac2; 	  
+  font-family: Arial, Verdana, sans-serif;  /* Семейство шрифтов */
+  font-weight: normal; 						/* Нормальное начертание текста */
+  }
+  
+p {
+  text-align: justify;						 /* Выравнивание по ширине */
+  }
+  
+  a{
+	    margin:0px 0px 0px 250px;
+		padding:
+  }
+  
+table {
+  width: 900px;
+  height: 500px;
+  border-collapse: collapse;
+  align-items: center;
+  background-image: linear-gradient(to top, #d16ba5, #c777b9, 
+#ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, 
+#41dfff, #46eefa, #5ffbf1);; text-decoration: blink; 
+  border:0px
+  
+  }
+  
+  
+ div{
+	 font-family: Arial, Verdana, sans-serif;  
+  font-size: 15pt; 
+ }
+  
+#info{
+margin: 0px 0px 0px 0px;
+}	
+  
+th, td {
+      border:  5px solid #184881;
+	  align-items: center;
+    }
+	
+.button {
+  background-image: linear-gradient(to bottom, #d16ba5, #ca6bac, #c26bb3, #b96dba, #af6ec0,
+  #a470c5, #9972c9, #8c74cd, #7c76d1, #6878d4, #517ad7, #2f7cd8);
+  border: 2;
+  border-collapse: collapse;
+  width: 200px;
+  height: 150px;
+  padding: 50px 50px;
+  align-items: center;
+  border: 0px solid #184881;
+  }
+  
+a {
+  align-items: center;
+  padding: 10px 50px 0px 0px;
+  background-image: linear-gradient(to right top, #ae2d76, #a23888, 
+  #924498, #7d4fa5, #6458ae, #5d58b0, #5459b3, #4b59b5,
+  #5b51b3, #6b47af, #7b3ba9, #892ba1);
+  }
+
+#tab2, #tab3 {position: fixed; }
+
+.page1 > a,
+.page1 #tab2:target ~ a:nth-of-type(1),
+.page1 #tab3:target ~ a:nth-of-type(1),
+.page1 > div { padding: 5px; }
+
+.page1 > a { line-height: 5px; 
+background-image: linear-gradient(to top, #d16ba5, #c777b9, 
+#ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, 
+#41dfff, #46eefa, #5ffbf1);; text-decoration: blink; }
+
+#tab2,
+#tab3,
+.page1 > div,
+.page1 #tab2:target ~ div:nth-of-type(1),/* выбирает новое окно таблицы*/
+.page1 #tab3:target ~ div:nth-of-type(1) {display: none; }
+
+.page1 > div:nth-of-type(1), /*псевдокласс для добавления стиля к элементам указанного типа на основе нумерации в дереве элементов. */
+/*.page1 #tab2:target ~ div:nth-of-type(2),/*Порядковый номер указанного элемента.*/
+.page1 #tab3:target ~ div:nth-of-type(3) { display: block; }
+
+.page1 > a:nth-of-type(1),
+/*.page1 #tab2:target ~ a:nth-of-type(2) , 
+.page1 #tab3:target ~ a:nth-of-type(3) {	 border-bottom: 2px solid  ##f04ac2; }*/
+
+
+/*
+<!-- Красный --> 
+color: #ff9fa1;
+ background-color: #ff9fa1;
+
+<!-- Оранджевый  -->
+
+сolor: #ffd6b4;
+ background-color: #ffd6b4;
+
+<!-- Жёлтый  -->
+
+сolor: #faf0de;
+ background-color: #faf0de;
+
+<!-- Бирюза тип зеленый  -->
+
+сolor: #9bf4d9;
+ background-color: #9bf4d9;
+
+<!-- Синий  -->
+
+сolor: #8ab4f2;
+ background-color: #8ab4f2;
+
+<!-- Темно-синий  -->
+
+сolor: #5e9af2;
+ background-color: #5e9af2;
+
+<!-- Фиолетовый  -->
+
+сolor: #ac6efa;
+ background-color: #ac6efa;
+
+<!-- Розовый  -->
+
+сolor: #f04ac2;
+ background-color: #f04ac2;
+ 
+ <!-- Светло-Розовый  -->
+
+сolor: #ffa4fa;
+ background-color: #ffa4fa;
+ 
+  <!-- Светло-Светло-Розовый  -->
+
+сolor: ffd0fc;
+ background-color: #ffd0fc;
+ 
+ 
+
+*/

@@ -1,0 +1,86 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  
+  <title> Портфолио </title>
+  
+  
+  <script src="Portfolio.js"></script>
+  
+  <style>
+   a {  text-decoration: none; } <!-- подчеркивание у ссылки -->
+  </style>
+  
+ </head>
+ 
+<body>
+ 	<h1 align= "center"> Портфолио </h1>
+ 	<h3 align= "center"> Карточка </h3>
+ 	<div class="page1">
+		
+ 		<div>
+			<table border="0" align=center> 
+	
+	<!--Расписание на чётную неделю-->
+	
+   <tr>
+		<th width="200px"> Содержание </th>
+				<th >Информация</th>
+   </tr>
+   
+   <tr>
+		<td> <button class = "button" onclick="clicked('Student')">Учащийся</button></td>
+	
+		<td rowspan="0"> 
+				<div id="info" > Краткая информация об учащемся</div>
+		</td>
+		
+   </tr>
+   
+    <tr>
+		<td> <button class = "button" onclick="clicked('Intelligence')"> Сведения </button></td>
+   </tr>
+   
+    <tr>
+		<td> <button class = "button" onclick="clicked('project_s')"> Проекты </button></td>
+   </tr> 
+   
+			</table>
+		</div>
+</body>
+
+						<!--текст-->
+	<div id = 'Student'>
+		<pre> 
+  <img src="images/profile.jpg" alt="Фото"/>
+   ФИО:Кутузова Анастасия Романовна
+		</pre>
+	</div>
+
+	<div id = 'Intelligence'>
+		<pre>
+  Фаультет: Информационных технологий <br>
+  Курс:3<br>
+  Группа: ИВТ-Б-01-Д-2016-1<br>
+  Направление подготовки:Информатика и вычислительная техника <br>
+		</pre>
+	</div>
+
+	<div id = 'project_s'>
+		<pre> 
+     <a href="project_1/lablablab3.html" target="_blank"> Проект 1 </a> 
+		</pre> 
+		
+		<pre> 
+     <a href="project_2/Nord.html" target="_blank" > Проект 2 </a>
+			</pre> 
+			
+			<pre> 
+     <a href="images/project_3.png" target="_blank"> Проект 3</a> 
+			</pre> 
+	</div>
+
+	
+</html>
+

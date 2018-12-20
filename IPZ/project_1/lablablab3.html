@@ -1,0 +1,181 @@
+<html>
+<head>
+ <title>лаба 1 верстка</title>
+ <link href="lab11css.css" rel="stylesheet" type="text/css"  /> <!--подключаем стиль-->
+ 
+<link rel="stylesheet" href="layout.css" type="text/css" media="all">
+
+<script type="text/javascript">
+  function animateText(id, text, i) {
+    document.getElementById(id).innerHTML = text.substring(0, i);
+    i++;
+    if (i > text.length) i = 0;
+    setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 100);
+  }
+</script>
+
+<style>
+   a {  text-decoration: none; } <!--Отменяем подчеркивание у ссылки -->
+  </style>
+
+</head>
+
+ <body 
+ id="page1" onload = 'animateText("dynamic-text", " Sed ut perspiciatis unde omnis natius error volup accusantium doloremque  laudantium, totaeim aperiam, eaque  ipsaquae ab illo inventore. ",  0);' 
+ >
+ 
+ <div class="body1">
+ <div class="main">
+	<header>
+	
+	<div class="bound-top-navigation wrapper ">
+	<div id="top-navigation" class="wrapper">
+			<div id="block-date"> Friday, September 28,   2018 12:34</div>
+				<div id="block-nav-menu">
+						<ul>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Sitemap</a></li>
+						</ul>
+				</div>
+	</div>
+	
+		<div class=" bound-logo-main-menu"> 
+			<div class="wrapper logo-main-menu"> <!--Применяем сразу 2 стиля к одному элементу-->
+			<div id="logo"><img src="images/logo.png"/></div> <!--Размещаем картинку логотипом-->
+			
+				<nav id="main-menu">
+					<ul>
+						<li class="active-element">	     		   Home      		 </li>
+						<li class="nav3">		         		   Features  		 </li>
+						<li class="nav4">		          		   Product   		 </li>
+						<li class="nav6"> <a href="E:/специальные разделы программирования,html/laba1/page2.html">    labas    </a>    </li>
+						<li class="nav6">		       	   		   Contacts   		 </li>
+					<ul>
+				</nav>
+			</div>
+		</div>
+			
+	<div class="bound-advertisement-content wrapper ">	
+		<div id="advertisement" class="wrapper ">
+			<div class="text"> <span class="tittle" >
+			
+			Best<span>
+			
+			Professional Soft
+			
+			</span>
+			
+			</span>
+			
+				<p id = 'dynamic-text'  >Sed ut perspiciatis unde omnis natius<span>error volup accusantium doloremque</span>
+				<span>laudantium, totaeim aperiam, eaque</span><span>ipsaquae ab illo inventore.</span></p>
+				<a href="#" class="button1">More Info</a>
+			</div>
+			<div> 
+             <img src="images/img1+1.png"> 
+			</div>
+		</div>
+<!-- <div class="text"> <span class="tittle">Best<span>Professional Soft</span></span>
+				<p>Sed ut perspiciatis unde omnis natius<span>error volup accusantium doloremque</span>
+				<span>laudantium, totaeim aperiam, eaque</span><span>ipsaquae ab illo inventore.</span></p>
+				<a href="#" class="button1">More Info</a>
+			</div>-->
+    </div>
+	</div> 
+	</header>
+	
+ <!-- content -->
+ 
+    <article id="content">
+      <section class="col1">
+        <h2>News &amp; Events</h2>
+        <div class="wrapper pad_bot2">
+          <p class="left marg_right1"><a><img src="images/icons_img1.jpg" alt=""></a></p>
+          <p class="pad_bot1 pad_top1"><span class="color1">Tue, June 7, 2011</span></p>
+          <p >Nam libero tempore csoluta nobis eieligendi opto cumque nihil impedit quo.</p>
+        </div>
+        <div class="wrapper pad_bot2">
+          <p class="left marg_right1"><a><img src="images/icons_img2.jpg" alt=""></a></p>
+          <p class="pad_bot1 pad_top1"><span class="color1">Sun, June 5, 2011</span></p>
+          <p>Minus quod maxime placeat facere possimus voluptas assumenda est omnis.</p>
+        </div>
+        <div class="wrapper">
+          <p class="left marg_right1"><a><img src="images/icons_img3.jpg" alt=""></a></p>
+          <p class="pad_bot1 pad_top1"><span class="color1">Thu, June 2, 2011</span></p>
+          <p>Omnis dolor repellendus aut temporibus autem quibus- dam et aut officiis debitis.</p>
+        </div>
+      </section>
+      <section class="col2">
+        <h2 class="pad_bot1">What We Offer</h2>
+        <div class="wrapper">
+          <p class="left marg_right1"><a><img src="images/icons_img4.jpg" alt=""></p> <!--Выдиление элемента-->
+          <p class="pad_top1 pad_bot1"><strong class="color1">This is one of free website templates created by TemplateMonster.com</strong></p>
+         
+		 <p class="pad_bot3">This Pro Soft template is optimized for 1024X768 screen resolution.It has several pages: 
+		  <a href="#">Home Page</a>, <a href="#">Features</a>, 
+		  <a href="#">Support</a>, <a href="#">Downloads</a>, 
+		  <a href="#">Contacts</a> (note that contact us form – doesn’t work).</p>
+		  
+          <a href="#" class="button right">Read More</a> </div>
+        <h2 class="pad_bot1 pad_top1">Why Do You Need It?</h2>
+        <div class="wrapper">
+          <p class="left marg_right1"><img src="images/icons_img5.jpg" alt=""></p>
+          <p class="pad_top1 pad_bot1"><strong class="color1">This Pro Soft Template goes with two packages</strong></p>
+          <p class="pad_bot3">With PSD source files and without them. PSD source files are available for free for the registered members of Templates.com. The basic package (without PSD source is available for anyone without registration).</p>
+          <a href="#" class="button right">Read More</a> </div>
+      </section>
+    </article>
+  </div>
+</div>
+ 
+<div class="body2">
+  <div class="main">
+    <article id="content2">
+      <section class="col1">
+        <h3>Newsletter</h3>
+        <form id="newsletter" action="#">
+          <div>
+            <div class="bg">
+              <input class="input" type="text" value="Type Your Email Here" onblur="if(this.value==&#39;&#39;) this.value=&#39;Type Your Email Here&#39;" onfocus="if(this.value ==&#39;Type Your Email Here&#39; ) this.value=&#39;&#39;">
+            </div>
+            <a href="#" class="button2">Subscribe</a> </div>
+        </form>
+      </section>
+      <section class="col_1">
+        <h3>Why Us?</h3>
+        <ul class="list1">
+          <li><a href="#">Sed ut perspiciatis</a></li>
+          <li><a href="#">Unde oiste natus erturor</a></li>
+          <li><a href="#">Sit voluptatem accusa</a></li>
+        </ul>
+      </section>
+      <section class="col_2">
+        <h3>Follow Us</h3>
+        <ul id="icons">
+          <li><a href="#"><img src="images/icon1.jpg" alt="">Facebook</a></li>
+          <li><a href="#"><img src="images/icon2.jpg" alt="">Twitter</a></li>
+          <li><a href="#"><img src="images/icon3.jpg" alt="">LinkedIn</a></li>
+        </ul>
+      </section>
+      <section class="col_1">
+        <h3>Address</h3>
+        <p class="address"> <span> Country:<br>
+          City:<br>
+          Email: </span> USA<br>
+          San Diego<br>
+          <a href="#">prosoft@mail.com</a> </p>
+      </section>
+    </article>
+    <!-- / content -->
+  </div>
+</div>
+<div class="main">
+  <!-- footer -->
+  <footer>Copyright © Domain Name  All Rights Reserved<br>
+    Design by <a target="_blank" href=""></a>
+	
+  </footer>
+</div>
+</body>
+</html>
