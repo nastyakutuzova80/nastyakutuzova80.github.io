@@ -1,0 +1,218 @@
+.flex-container {
+	display: flex; /* способ верстки*/
+	flex-direction: column; /* способ расположения */ 
+	justify-content: flex-start; /* на каком уровне располагается */
+	align-items: center; /* где распалагается */
+}
+
+header {
+	background-color: #ffd6b4;
+	width: 1920px;
+	height: 610px;
+}
+
+nav {
+	background-color: #ff9fa1;
+	width: 1920px;
+	height: 88px;
+}
+
+article {
+	background-color: #f04ac2;
+	width: 1920px;
+	//height: 667px;
+}
+
+#article_1 {
+	width: 1920px;
+	height: 667px;
+}
+
+#article_2 {
+	min-width: 1920px;
+	height: 667px;
+}
+
+#article_3 {
+	width: 1920px;
+	height: 667px;
+}
+
+#article_4 {
+	width: 1920px;
+	height: 739px;
+}
+
+#article_5 {
+	width: 1920px;
+	height: 1001px;
+	
+}
+
+#article_6 {
+	width: 1920px;
+	height: 1001px;
+	
+}
+
+#article_7 {
+	width: 1920px;
+	height: 179px;
+	
+}
+
+#article_8 {
+	width: 1920px;
+	height: 1278px;
+	
+}
+
+#div_1 {
+	background-color: 8ab4f2;
+	width: 379px;
+	height: 378px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+#div_2 {
+	background-color: 8ab4f2;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	width: 200px;
+	height: 200px;
+	margin-left:10px;
+	padding: 80px;
+}
+
+#div_3 {
+	background-color: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	width: 200px;
+	height: 200px;
+	margin-left:10px;
+	padding: 80px;
+	align-items: center;
+}
+
+/*Для тех кто неизменен в размере*/
+.flex-container0 {
+	margin-left:550px;
+	margin-right:550px; 
+	display: flex; /*отображает контейнер как блочный элемент*/
+	align-items: center; /* где распалагается */
+/*flex-basis: 100;*/
+}
+
+/*для 6 объектов*/
+.flex-container1 {
+	margin-left:380px;
+	margin-right:380px;
+	display: -webkit-flex; 
+	display: flex; /*отображает контейнер как блочный элемент*/
+	align-items: center; /* где распалагается */
+	flex-wrap: wrap;
+/*flex-basis: 100;*/
+}
+
+/*для 8 объектов */
+.flex-container2 {
+	margin-left:150px;
+	margin-right:150px;
+	display: -webkit-flex; 
+	display: flex; /*отображает контейнер как блочный элемент*/
+	align-items: center; /* где распалагается */
+	flex-wrap: wrap;
+/*flex-basis: 100;*/
+}
+
+.flex-container3 {
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-left:10px;
+	display: -webkit-flex; 
+	display: flex; /*отображает контейнер как блочный элемент*/
+	align-items: center; /* где распалагается */
+	flex-wrap: wrap;
+/*flex-basis: 100;*/
+}
+
+
+
+
+.flex3 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-right: 5em;
+		margin: 10 200px;
+		/*width: 1600px;
+		height: 300px;*/
+		
+}
+
+.flexXx {
+
+margin: 3.7em 0.3em 0.7em;	
+width: 100px;
+height: 30px;
+	
+}
+
+
+.flexX { 
+  margin-right: 2em;
+  margin-left: 2em; 
+  margin: 100 10px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+	margin-right: 2em;
+	margin: 100 10px;
+
+  } 
+
+	.fle1Xx
+	{
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 8em;
+	margin: 85 355px;
+	}
+  
+/*width: 1920px;
+height: 1064px;*/
+
+
+#div_8
+{
+	width: 500px;
+	height: 200px;
+	background-color: #5e9af2;
+}
+
+footer {
+	background-color: #ac6efa;
+	width: 1920px;
+	height: 80px;
+}
+
+.color1 {background-color: #faf0de;}
+.color2 {background-color: #9bf4d9;}
+.color3 {background-color: #8ab4f2;}
+.color4 {background-color: #5e9af2;}
+.color5 {background-color: #faf0de;}
+.color6 {background-color: #9bf4d9;}
+.color7 {background-color: #8ab4f2;}/*синий светлый*/
+.color8 {background-color: #5e9af2;}/*бирюза*/
+.color9 {background-color: #8aсaf2;}/*ярко розовый*/
+.color10 {background-color: #df3ab1;}/* розовый*/
+
+
